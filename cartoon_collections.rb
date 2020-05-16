@@ -29,7 +29,7 @@ end
   
 def long_planeteer_calls(planeteer_calls)
   planeteer_calls.any? do |element|
-    element.count > 4
+    element.length > 4
   end
 end
 
